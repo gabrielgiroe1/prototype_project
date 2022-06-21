@@ -130,6 +130,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
+    power_assert (2.0.1)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -185,6 +186,8 @@ GEM
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
     strscan (3.0.3)
+    test-unit (3.5.3)
+      power_assert
     thor (1.2.1)
     timeout (0.3.0)
     turbo-rails (1.1.1)
@@ -225,6 +228,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  test-unit (~> 3.5.3)
   turbo-rails
   tzinfo-data
   web-console
