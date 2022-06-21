@@ -26,7 +26,7 @@ else
 end
 
 if p1.circular_reference.prototype.equal?(p2.circular_reference.prototype)
-  print 'Component with back reference is linked to original object.'
+  puts 'Component with back reference is linked to original object.'
 else
-  print 'Component with back reference is linked to the clone.'
+  puts 'Component with back reference is linked to the clone.'
 end
